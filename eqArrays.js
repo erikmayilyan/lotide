@@ -18,4 +18,4 @@ console.log(eqArrays(["1", "2", "3"], ["1", "2", 3]));
 
 console.log(assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true));
 
-module.exports = assertEqual;
+module.exports = eqArrays;
